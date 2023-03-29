@@ -5,8 +5,8 @@
 
 import boto3, json, os, decimal
 
-# OLD-SM_ARN = 'arn:aws:states:us-east-1:892969532270:stateMachine:PetCuddleOtron'
-SM_ARN = 'arn:aws:states:us-east-1:892969532270:stateMachine:PetCuddleOtron'
+# OLD-SM_ARN = 'YOUR_STATEMACHINE_ARN'
+SM_ARN = 'YOUR_STATEMACHINE_ARN'
 
 sm = boto3.client('stepfunctions')
 

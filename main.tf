@@ -20,7 +20,7 @@ variable "user_email" {
   description = "Email address to be used for reminder"
   type = string
 
-  default = "pgg6@njit.edu"
+  default = "XXX@XXX.com"
 
   validation {
     condition     = can(regex("@", var.user_email))
